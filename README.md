@@ -1,25 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+プログラミング学習サイト Progate の Ruby on Rails学習コースのアウトプットです。
+学習レッスン部分ではProgate内で学習し、道場レッスン部分で手元の環境で実装します。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # tweet_app
