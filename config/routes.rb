@@ -3,7 +3,13 @@ Rails.application.routes.draw do
   get "/about" => "home#about"
 
   get "posts/index" => "posts#index"
-  get "posts/:id" => "posts#show"
+  get "posts/new" => "posts#new"
+  post "posts/create" => "posts#create"
+
+  get "posts/:id/edit" => "posts#edit"
+  post "posts/:id/update" => "posts#update"
+  get "posts/:id" => "posts#show" # posts/ 直下のrouteはこれ以下に置かない！
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
