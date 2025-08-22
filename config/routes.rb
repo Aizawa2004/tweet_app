@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get "posts/:id/edit" => "posts#edit"
   post "posts/:id/update" => "posts#update"
+  post "posts/:id/destroy" => "posts#destroy"
   get "posts/:id" => "posts#show" # posts/ 直下のrouteはこれ以下に置かない！
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

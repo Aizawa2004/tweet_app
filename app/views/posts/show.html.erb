@@ -9,6 +9,8 @@
       </div>
       <div class="post-menus">
         <%= link_to("編集", "/posts/#{@post.id}/edit") %>
+        <%# rails5と7ではmethodの指定の仕方が変更している %>
+        <%= link_to("削除", "/posts/#{@post.id}/destroy", data: {turbo_method: "post"}) %>
       </div>
     </div>
   </div>
